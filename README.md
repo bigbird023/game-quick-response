@@ -13,21 +13,14 @@ To Start:
 
 Concept of The Game we will be building:  It is a response game, the user will pick Easy, Medium or Hard, which will determine speed of screen changes.  User will click start, which will allow the game to start outputting "---" on a line.  When the letter "x" appears, then the user is expected to touch any keyboard value.
 
-## Understanding how a program starts
+## Seeing User Input, Validation, and Looping to keep game active
 Open up Program.cs
 
-Because this is a console game, the below method signature is how .NET will know which part of your code to execute first
+Checkout the 2 new methods that loop with do..while and validates the user inputs
 
-class Program
-    {
-        static void Main(string[] args)
-
-
-So we will start by asking the User the Question of Easy, Mediocre, or Hard
-
+#What is Next
 Todo:
-1.) Move Code Section into it's own method name inputGameLevel
-2.) Add input validation
-3.) Add Loop until valide input is made
+1.) Add Another Method to start the game screen looping
+2.) Add Another Method to capture user input for there quick reponse
 
-Need Help, Go onto Step 2 of the tutorial
+Need Help, Go onto Step 3 of the tutorial
